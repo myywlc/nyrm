@@ -9,7 +9,7 @@ import open from 'open';
 import async from 'async';
 import request from 'request';
 import only from 'only';
-import registries from './registries.json';
+import registries from '../registries.json';
 import PKG from '../package.json';
 
 const YRMRC = path.join(process.env.HOME, '.yrmrc');

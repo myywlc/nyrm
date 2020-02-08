@@ -51,7 +51,7 @@ var _only = require('only');
 
 var _only2 = _interopRequireDefault(_only);
 
-var _registries = require('./registries.json');
+var _registries = require('../registries.json');
 
 var _registries2 = _interopRequireDefault(_registries);
 
