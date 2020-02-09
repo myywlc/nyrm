@@ -1,6 +1,6 @@
 {
   "name": "@myywlc/nyrm",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "npm yarn registry manager config",
   "bin": {
     "nyrm": "bin/nyrm.js"
