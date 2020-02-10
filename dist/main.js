@@ -259,9 +259,6 @@ function printMsg(infos) {
   });
 }
 
-/*
- * print message & exit
- */
 function exit(err) {
   printErr(err);
   process.exit(1);
