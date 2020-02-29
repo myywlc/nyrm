@@ -1,13 +1,15 @@
 {
   "name": "@myywlc/nyrm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "npm yarn registry manager config",
   "bin": {
     "nyrm": "bin/nyrm.js"
   },
   "scripts": {
     "compile": "babel src -d dist",
-    "watch": "npm run compile -- --watch"
+    "dev": "npm run compile -- --watch",
+    "deploy": "npm run compile",
+    "postdeploy": "npm publish --access=public"
   },
   "homepage": "https://github.com/myywlc/nyrm",
   "dependencies": {
